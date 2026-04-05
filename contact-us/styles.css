@@ -1,0 +1,22 @@
+.card-title {
+  font-size: 28px;
+  text-align: center;
+}
+
+.card-desc {
+  text-align: center;
+  font-size: 13px;
+}
+
+.note {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 22px;
+  }
+}

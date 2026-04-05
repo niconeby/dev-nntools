@@ -1,0 +1,97 @@
+.tool-password .card-header {
+  text-align: center;
+}
+
+.tool-password .btn-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.tool-password .meta {
+  font-size: 12px;
+  text-align: right;
+}
+
+.tool-password .suggestion-box {
+  color: black;
+  border-left: 4px solid #eb9100;
+  display: none;
+}
+
+.tool-password .meter-text {
+  text-align: center;
+  font-weight: 700;
+}
+
+.tool-password .meter {
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+}
+
+.tool-password .meter-bar {
+  height: 100%;
+  width: 0%;
+  transition: width 0.25s ease;
+}
+
+.tool-password .breach-result {
+  width: 100%;
+}
+
+.tool-password #breachResult {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--card-soft);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  font-size: 14px;
+  line-height: 1.6;
+  display: none;
+}
+
+.tool-password .checking-icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.tool-password .checking-icon path {
+  fill: var(--brand) !important;
+}
+
+.tool-password .notice {
+  display: none;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tool-password .notice.is-show {
+  display: block;
+}
+
+.tool-password .hibp-link {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+}
+
+.tool-password .hibp-link:hover {
+  text-decoration: none;
+}
+
+.tool-password .hibp-link strong{
+  color: var(--brand);
+}
+
+.tool-password .field-action svg {
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .tool-password .btn-group {
+    grid-template-columns: 1fr;
+  }
+}
